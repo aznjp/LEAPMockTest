@@ -1,6 +1,6 @@
 
 
-
+p,
 .p {
   text-align: left;
 margin-bottom: 1rem;
@@ -12,16 +12,24 @@ line-height: 1.375rem;
 }
 
 .footertext,
-.footertextlinks {
+.footertextlinks,
+.footertext-social {
   color: #bbbdbf;
   text-decoration: none;
   margin-bottom: 0.75rem;
   line-height: 100%;
 }
+.footercontact-links {
+  background-color: #303030;
+}
 
 
 .smalltext {
   font-size: .6875rem;
+}
+
+.mgnbot0 {
+  margin-bottom: 0rem;
 }
 
 .padtop10 {
