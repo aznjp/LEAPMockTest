@@ -36,6 +36,18 @@ p.buttontext {
 .btn-grey {
   background-color: #9dc0e4;
 }
+
+.logo{
+  width: 8.75rem;
+  padding: .3125rem;
+  color: #f69139;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+
 /* =============================== HERO Classes ======================================== */
 .hero {
   background-image: url("../../Images/fingers-on-laptop-header-bg.jpg");
