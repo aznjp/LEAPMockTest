@@ -1,4 +1,9 @@
-
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 2.25rem;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 p,
 .p {
@@ -14,27 +19,50 @@ p.buttontext {
   color: white;
 }
 
-.footerbg {
-  background-color: #2a2a2a;
+.img-responsive {
+  width: 100%;
+  height: auto;
 }
 
-.footertext,
-.footertextlinks,
-.footertext-social {
-  color: #bbbdbf;
-  text-decoration: none;
-  margin-bottom: 0.75rem;
-  line-height: 100%;
+.btn-warning {
+  background-color: #F69139;
 }
-.footercontact-links {
-  background-color: #303030;
+
+.btn-grey {
+  background-color: #9dc0e4;
 }
 
 
-.smalltext {
-  font-size: .6875rem;
+/* ================================ Section 2 Classes =========================== */
+.bglightblue {
+  background-color: #d3e9ff;
 }
 
+.bgblue {
+  background-color: #1e365e;
+  background-size: cover;
+}
+
+.text-blue {
+  color: #0061aa;
+  font-family: sans-serif;
+  font-size: 1.15rem;
+}
+
+.text-bluelink {
+  font-weight: 500;
+  color:#0060a9;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+}
+
+p.card-text {
+  text-align: center;
+}
+
+/* ================================ Spacing Classes ============================= */
 .mgnbot0 {
   margin-bottom: 0rem;
 }
@@ -55,13 +83,53 @@ p.buttontext {
   padding-top: 3.125rem;
 }
 
-.padtop40 {
+.padbot10 {
+  padding-bottom: .625rem;
+}
+
+.padbot20 {
+  padding-bottom: 1.25rem;
+}
+
+.padbot40 {
   padding-bottom: 2.5rem;
 }
 
 .padbot50 {
   padding-bottom: 3.125rem;
 }
+
+
+.padright40{
+  padding-right: 2.5rem;
+}
+.padleft40{
+  padding-left: 2.5rem;
+}
+
+/* ============================= Text Classes ================================= */
+.smalltext {
+  font-size: .6875rem;
+}
+
+/* =========================== Footer Classes ================================== */
+
+.footerbg {
+  background-color: #2a2a2a;
+}
+
+.footertext,
+.footertextlinks,
+.footertext-social {
+  color: #bbbdbf;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  line-height: 100%;
+}
+.footercontact-links {
+  background-color: #303030;
+}
+
 
 @media screen and (max-width: 768px) {
 
