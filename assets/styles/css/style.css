@@ -47,6 +47,11 @@ p.buttontext {
   display: block!important;
 }
 
+.nav-link {
+  color: #1e365e;
+  font-weight: 600;
+}
+
 
 /* =============================== HERO Classes ======================================== */
 .hero {
