@@ -12,6 +12,11 @@ margin-bottom: 1rem;
 line-height: 1.375rem;
 }
 
+p.header{
+  font-size: .9375rem;
+  color: white;
+}
+
 p.buttontext {
   margin: .3125rem 0 .3125rem 0;
   font-size: .9375rem;
@@ -30,6 +35,18 @@ p.buttontext {
 
 .btn-grey {
   background-color: #9dc0e4;
+}
+/* =============================== HERO Classes ======================================== */
+.hero {
+  background-image: url("../../Images/fingers-on-laptop-header-bg.jpg");
+  background-size: cover;
+}
+
+.hero-text {
+  color: #9dc0e4;
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  line-height: 24px;
 }
 
 
@@ -112,6 +129,7 @@ p.card-text {
 
 .smalltext {
   font-size: .6875rem;
+  color: #bbbdbf;
 }
 
 .footerbg {
@@ -128,13 +146,4 @@ p.card-text {
 }
 .footercontact-links {
   background-color: #303030;
-}
-
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 500px) {
-
 }
