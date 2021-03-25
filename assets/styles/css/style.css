@@ -33,7 +33,7 @@ p.buttontext {
 }
 
 
-/* ================================ Section 2 Classes =========================== */
+/* ================================ FORMS AND LINKS Classes =========================== */
 .bglightblue {
   background-color: #d3e9ff;
 }
@@ -107,12 +107,12 @@ p.card-text {
   padding-left: 2.5rem;
 }
 
-/* ============================= Text Classes ================================= */
+
+/* =========================== Footer Classes ================================== */
+
 .smalltext {
   font-size: .6875rem;
 }
-
-/* =========================== Footer Classes ================================== */
 
 .footerbg {
   background-color: #2a2a2a;
